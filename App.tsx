@@ -4,7 +4,7 @@ import type { Appointment, AppointmentStatus } from "./types";
 import { getAppointments, getDoctors, getPatients, save } from "./storage";
 import { formatDate, formatTime, initials, todayISO } from "./utils";
 import Modal from "./components/Modal";
-import AppointmentForm from "./components/AppointmentForm";
+import AppointmentForm from "/AppointmentForm";
 
 type Page = "Overview" | "Appointments" | "Patients" | "Doctors";
 const nav: {label:Page; icon:typeof LayoutDashboard}[] = [

@@ -3,7 +3,7 @@ import { Activity, CalendarDays, Check, ChevronDown, Clock3, LayoutDashboard, Lo
 import type { Appointment, AppointmentStatus } from "./types";
 import { getAppointments, getDoctors, getPatients, save } from "./storage";
 import { formatDate, formatTime, initials, todayISO } from "./utils";
-import Modal from "./components/Modal";
+import Modal from "/Modal";
 import AppointmentForm from "/AppointmentForm";
 
 type Page = "Overview" | "Appointments" | "Patients" | "Doctors";
